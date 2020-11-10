@@ -1,0 +1,45 @@
+
+/*--------------general--------------------*/
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  padding-left: 0;
+  list-style-type: none;
+}
+
+/*--------------navigation--------------------*/
+nav{
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+#site-header{
+  padding-left: 2%;
+}
+.nav-list{
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+/*--------------main--------------------*/
+.page-heading{
+  text-align: center;
+}
+
+/*--------------footer--------------------*/
+footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
